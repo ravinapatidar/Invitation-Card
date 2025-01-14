@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Invitation Card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+       <div class="information-container">
+          <h2 class="heading">Information form</h2>
+           <div class="information-field">
+            <div class="name">
+                <label for="name">Name: <input type="text" class="nameInput" placeholder="Enter your name">
+                </label>
+            </div>
+            <div class="Birthday">
+                <label for="BirthdayDate">Birthday: <input class="BirthdayInput" type="text" type="number" placeholder="Enter your BirthdayDate">
+                </label>
+            </div>
+            <div class="whats">
+                <label for="whats">What's Birthday: <input class="whatsInput" type="text" placeholder="Enter what's Birthday 1st, 2nd,..">
+                </label>
+            </div>
+            <div class="location">
+                <label for="location">Location: <input class="locationInput" type="text" placeholder="Enter your location">
+                </label>
+            </div>
+            <div class="day">
+                <label for="day">Day: <input class="dayInput" type="text" placeholder="Enter Day">
+                </label>
+            </div>
+            <div class="time">
+                <label for="time">Time: <input class="timeInput" type="text" placeholder="Enter Time">
+                </label>
+            </div>
+            
+            <button class="btn">Submit</button>
+
+           </div>
+
+       </div>
+       <div class="card-container">
+        <h1>It's Time To Party!</h1>
+        <!-- <div class="photo-upload-container">
+     <button class="xMark"><i class="fa-solid fa-xmark "></i></button>
+          <div id="photo-preview"> <button id="uploadButton">Upload Photo</button>
+                     <input type="file" id="photo" accept="image/*">
+          </div>
+        </div> -->
+        <div class="name-container">
+          <h2>Join us to celebrate <br/><span class="print-name">ranu</span>'s <span class="count">20</span>th
+            <span class="b">B</span ><span class="i">I</span ><span class="r">R</span><span class="t">T</span><span class="h">H</span><span class="d">D</span><span class="a">A</span><span class="y">Y</span></h2>
+        </div>
+          <div class="location-container">
+            <h3><span class="print-day">sunday</span> <span class="print-date">June 08</span> At <span class="print-time">08:00 pm</span></h3>
+            <h4 class="print-location">16A Ganraj Nagar</h4>
+            <h4>please come and join us to celebrate <br>
+              the party, enjoy and <br>give lots of blessings.</h4>
+          </div>
+          <i class="fa-solid fa-download dawnload-card"></i>
+      </div>
+         
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
