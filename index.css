@@ -215,6 +215,16 @@ h3 {
         font-size: 15px;
     }
  } 
+ @media (max-width:375px) {
+    .information-container {
+        margin-top: 2rem;
+        width: 400px;
+    }
+    .heading {
+        font-size: 1rem;
+    }
+    
+}
   @media (max-width: 1200px) {
     .card-container{
         gap: 4rem;
@@ -323,7 +333,7 @@ h3 {
 }
 @media (max-width: 375px) {
     .card-container{
-        width: 400px;
+        width: 350px;
     }
     .card-container h1 {
         font-size: 1.5rem;
