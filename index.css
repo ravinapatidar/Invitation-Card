@@ -217,7 +217,7 @@ h3 {
  } 
   @media (max-width: 1200px) {
     .card-container{
-        gap: 5rem;
+        gap: 4rem;
     }
     .card-container h1 {
         font-size: 4rem;
